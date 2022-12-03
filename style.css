@@ -1,0 +1,101 @@
+*{
+    transition: all 0.5s;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #B79891;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #94716B, #B79891);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #94716B, #B79891); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 120%;
+}
+
+#encabezado{
+
+    width: 80vw;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+    
+
+.opcion{
+    text-align: center;
+  width: 80vw;
+  background: white;
+  
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.opcion:hover{
+
+    background: rgb(19, 163, 163);
+
+}
+ 
+ .btn {
+  position:absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  -ms-transform: translate(-30%, -30%);
+  background-color:beige;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Montserrat, "Noto Sans Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+
+}
+
+h1 {
+  color: white;
+  font-family:Magneto;
+  font-size: 50px;
+  letter-spacing: 5px;
+
+}
+
+#figura1{
+  width: 20px;
+  height: 10px;
+  opacity: 0.5;
+  top: -70px;
+  left: 330px;
+  position:fixed;
+}
+
+#figura2{
+  width: 10px;
+  height: 10px;
+  opacity: 0.5;
+  top: 430px;
+  left: 300px;
+  position:fixed;
+}
+
+
+
+
+
